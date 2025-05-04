@@ -1,0 +1,265 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1260px;
+    margin: 0 auto;
+}
+
+body {
+    background-color: black;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+}
+
+
+.hero_ul {
+    display: flex;
+    align-items: center;
+    text-shadow: 0px 4px 7.4px #FFFFFF;
+    justify-content: space-between;
+    gap: 100px;
+}
+
+.hero_li:hover {
+    color: #000000;
+    transition: 2s;
+}
+
+.hero_li:active {
+    color: yellow;
+}
+
+.hero_li {
+    list-style: none;
+    color: #FFFFFF;
+    font-size: 24px;
+    font-weight: 700;
+   ;
+}
+
+.imgbek {
+    display: flex;
+    align-items: center;
+    
+}
+.hero_div{
+    display: flex;
+    padding-top: 50px;
+    justify-content: space-between;
+    
+}
+
+.hero_img {
+    background-image: url("./img/Rectangle\ 2\ \(6\).png");
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 1520px;
+    height: 620px;
+    margin-top: 60px;
+    padding-top: 40px;
+}
+
+.hero_h1 {
+    background-color: #FFFFFF;
+    box-shadow: 16px 18px 28px 0px #FFFFFF40;
+    color: #000000;
+    width: 610px;
+    height: 75px;
+    font-size: 64px;
+    font-weight: 700;
+    border-radius: 30px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.card_h1 {
+    background-color: #FFFFFF;
+    box-shadow: 16px 18px 28px 0px #FFFFFF40;
+    color: #000000;
+    width: 610px;
+    height: 75px;
+    font-size: 64px;
+    font-weight: 700;
+    border-radius: 30px;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 85px;
+}
+
+.card_div {
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.card_div1 {
+    width: 370px;
+    height: 330px;
+    background-color: #7B2525;
+    margin-left: 100px;
+    margin-top: 130px;
+}
+
+.card_h10 {
+    color: #FFFFFF;
+    text-shadow: 0px 4px 7.4px #FFFFFF;
+    font-size: 32px;
+    font-weight: 700;
+    text-align: center;
+    padding-top: 45px;
+}
+
+.card_h10:hover {
+    color: black;
+    transition: 2s;
+}
+
+.card_h10:active {
+    color: orange;
+}
+
+.card_p {
+    color: #FFFFFF;
+    font-size: 20px;
+    font-weight: 700;
+    text-align: center;
+    padding-top: 70px;
+    padding-right: 50px;
+    margin-left: 50px;
+}
+
+.card_img {
+    margin: 80px 16px 60px 16px;
+}
+
+.cars_img {
+    margin: 30px 28px 22px 28px;
+}
+
+.black_ul {
+    display: flex;
+    text-shadow: 0px 4px 7.4px #FFFFFF;
+    font-size: 24px;
+    font-weight: 700;
+    padding-left: 570px;
+    gap: 120px;
+}
+
+.black_li:hover {
+    color: black;
+    transition: 2s;
+}
+
+.black_li:active {
+    color: blue;
+}
+
+.black_li {
+    list-style: none;
+    color: #FFFFFF;
+}
+
+.black_div {
+    padding-bottom: 90px;
+    padding-top: 130px;
+    display: flex;
+    margin: 0 auto;
+    justify-content: space-between;
+}
+.black_img{
+    display: flex;
+    margin-right: 50px;
+}
+
+.white_div {
+    display: flex;
+    margin-top: 80px;
+    gap: 60px;
+    margin: 80px 100px 0px 150px;
+
+}
+.white_div1:hover{
+    color: black;
+    transition: 2s;
+}
+.white_div2:hover{
+    color: black;
+    transition: 2s;
+}
+.white_div1:active{
+    color: green;
+}
+.white_div2:active{
+    color: green;
+}
+
+.white_div1 {
+    width: 200px;
+    height: 200px;
+    background-color: #F70101;
+    color: #FFFFFF;
+    text-shadow: 0px 4px 7.4px #FFFFFF;
+    font-size: 24px;
+    font-weight: 700;
+    box-shadow: 0px 18px 26.5px 0px #FB000040;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    z-index: 2;
+}
+
+.white_div2 {
+    width: 410px;
+    height: 210px;
+    font-size: 24px;
+    font-weight: 700;
+    border-radius: 100px;
+    background-color: #F70101;
+    box-shadow: 0px 18px 26.5px 0px #FB000040;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #FFFFFF;
+    text-shadow: 0px 4px 7.4px #FFFFFF;
+    position: relative;
+    z-index: 2;
+}
+.white_div3:hover{
+    color: black;
+    transition: 2s;
+}
+.white_div3:active{
+    color: blue;
+}
+.white_div3 {
+    width: 200px;
+    height: 200px;
+    background-color: #32FB00;
+    color: #FF0606;
+    text-shadow: 0px 4px 7.4px #FFFFFF;
+    font-size: 24px;
+    font-weight: 700;
+    box-shadow: 0px 22px 27.8px 0px #FFF9F940;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 110px;
+    margin-left: 20px;
+    position: relative;
+    z-index: 1;
+    bottom: 100px;
+
+}
+
+.yellow_div {
+    display: flex;
+    gap: 270px;
+}
